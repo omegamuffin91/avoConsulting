@@ -1,0 +1,209 @@
+/* style.css */
+
+/* the below should help with adding "responsive images", this will allow images to grow and shrink to fit the width of each team*/
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+    border: 20px solid white;
+    border-color: white;
+    background-color: white;
+    height: auto;
+
+    display: flexbox;
+
+
+}
+
+/* Customizing top menu bar -- Start -- HTML Code starts at line 21 of index.html */
+
+.flex-container {
+    display: flex;
+    height: auto;
+    background: white;
+    border: 4px solid white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.flex-container div
+{
+background: white;
+border: 4px solid pink;
+color: black;
+font-weight: bold;
+font-size: larger;
+width: auto;
+padding: 10px;
+text-align: center;
+
+
+}
+
+.flex-container .one, 
+.flex-container .two,
+.flex-container .three
+{
+    flex: 1,1,0;
+    background: white;
+
+
+    
+}
+
+/*
+    .flex-container .two a:hover {
+        flex: 1,1,0;
+        background-color: blue;
+        color: black;
+        font-weight: bold;
+        
+        }
+*/
+
+/* Customizing top menu bar -- End -- */
+
+/* Customizing bottom menu bar -- Start -- */
+.flex-containerTwo {
+    display: flex;
+    height: auto;
+    background: white;
+    border: 4px solid white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.flex-containerTwo div {
+background: white;
+border: 4px solid pink;
+color: black;
+font-weight: bold;
+font-size: larger;
+padding: 10px;
+   
+}
+
+.flex-containerTwo .four
+{
+    flex: 1,1,0;
+    background: limegreen;
+
+}
+
+/* Customizing top menu bar -- End -- */
+
+/* Customizing body portion -- Start -- */
+
+.flex-containerBody {
+    display: flex;
+    height: auto;
+    background: white;
+    border: 4px solid white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.flex-containerBody div
+{
+background: white;
+border: 4px solid pink;
+color: black;
+font-weight: bold;
+font-size: larger;
+width: auto;
+padding: 10px;
+text-align: center;
+
+
+}
+
+.flex-containerBodyTwo {
+    display: flex;
+    height: auto;
+    width: auto;
+    background: white;
+    border: 4px solid white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.flex-containerBodyTwo div
+{
+background: white;
+border: 4px solid pink;
+height: fit-content;
+flex: 1,1,0%;
+
+color: black;
+
+font-size: larger;
+
+padding: 10px;
+text-align: center;
+
+
+
+}
+
+.flex-containerBodyTwo .five
+{
+    background: white;
+    width: auto;
+
+
+} 
+
+.flex-containerBodyTwo .six
+{
+    flex: 2,1,0%;
+    background: white;
+    border: 4px solid pink;
+    width: 800px;
+    text-align: center;
+
+}
+
+.six .resumeIntro {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+
+}
+
+.flex-containerBodyTwo .seven
+{
+    background: white;
+    width: auto;
+
+}
+
+/*
+.resumeIntro {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+*/
+
+.centerCompanyDescription {
+    text-align: center;
+}
+
+
+
+/* Customizing body portion -- End -- */
+
+
