@@ -1,0 +1,71 @@
+# This will be a cheat sheet of some kind
+
+---GitHub - Cheatsheet - Basics---
+
+--Table of Contents-- Use Ctrl + F
+
+git1 - Commonly Used Git Commands
+git2 - Good Commit Practices
+htmlcheat - Quick shortcuts for HTML coding
+linkilinks - good coding practices for adding links to code
+
+
+
+This is a reference list of the most commonly used Git commands (git1):
+
+    Commands related to a remote repository:
+        
+        git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+            Ex: git@github.com:omegamuffin91/avoConsulting.git
+
+        git push or git push origin main (Both accomplish the same goal in this context)
+
+    Commands related to the workflow:
+        
+        git add . (Adds all changes in current directory to staging area)
+        
+        git commit -m "A message describing what you have done to make this snapshot different"
+            "-m" is a message flag
+
+    Commands related to checking status or log history
+        
+        git status - checks the status off all git add|commit|push
+        
+        git log - shows all recent commits, with authors, date/times
+    
+    The basic Git syntax is program | action | destination.
+
+        For example,
+
+            git add . is read as git | add | ., where the period represents everything in the current directory;
+        
+            git commit -m "message" is read as git | commit -m | "message"; and
+            
+            git status is read as git | status | (no destination).
+
+These are 7 rules to writing a great commit message (git2):
+
+    Separate subject from body with a blank line
+        Limit the subject line to 50 characters
+    Capitalize the subject line
+    Do not end the subject line with a period
+    Use the imperative mood in the subject line
+    Wrap the body at 72 characters
+    Use the body to explain what and why vs. how
+
+This is a list of some quick shortcuts when writing HTML codes (htmlcheat):
+
+    Use ! and then ENTER to make a quick boilerplate. This only works for files marked as .html
+
+    Use ctrl + ` to quickly open the terminal
+
+    Use ctrl + / to quickly create a comment 
+
+
+These are best practices when adding Links and Images (linkilinks):
+
+    Always add a target="_blank" with a rel="noopener noreferrer"
+
+    Always add "./directory" to prevent any random errors
+
+    Use "../directory to go up into the parent directory
